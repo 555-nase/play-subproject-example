@@ -1,0 +1,26 @@
+{
+	main: {
+		apptitle: "OSLIB",
+		homepage: "/home",
+		logourl: "/assets/images/Oslib_ohneSchatten.jpg"
+	},
+	apps:[],
+	menu: [
+		{
+			lable: "Manage Licenses",
+			url: "managelicense",
+			submenus:[{
+				lable: "Managed Products",
+				url: "managedproducts"
+			},{
+				lable: "Managed Products2",
+				url: "managedproducts2"
+			}]
+		},
+		{
+			lable: "Manage Hardware",
+			url: "managehardware",
+			submenus:[]
+		}
+	]
+}
