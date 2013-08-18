@@ -27,7 +27,6 @@ object ApplicationBuild extends Build {
  
  
   val main = play.Project(appName, appVersion, appDependencies).settings(
-    resolvers += "Local Play Repository" at "file://C:/Users/Administrator/play_framework/play/repository/local"
   ).dependsOn(
     module1
   ).aggregate(
