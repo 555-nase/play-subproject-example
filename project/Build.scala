@@ -19,8 +19,7 @@ object ApplicationBuild extends Build {
     // Add your project dependencies here,
     javaCore,
     javaJdbc,
-    javaEbean,
-    "oc-menu" % "oc-menu_2.10" % "0.9.5"
+    javaEbean
   )
 
   val module1 = play.Project("module1", "0.2", testAppDependencies, path = file("modules/TestApp"))
